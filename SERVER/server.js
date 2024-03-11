@@ -23,6 +23,6 @@ app.use("/",InitialRoute);
 app.use("/",RegistrationRoute);
 app.use("/",LoginRoute);
 
-app.listen(process.env.SERVER_PORT,()=>{
+app.listen(8080,()=>{
   console.log("sever is running on 3001");
 })
