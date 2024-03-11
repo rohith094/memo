@@ -22,7 +22,9 @@ function NewUser() {
   
   const loadUser = async ()=>{
     // const response = await axios.get(`http://localhost:8081/user/${id}`);
-    const response = await axios.get(`http://localhost:3001/user/${id}`);
+    const response = await axios.get(`https://memo-i7q4.onrender.com
+
+/user/${id}`);
     setUser(response.data);
   } 
 
@@ -38,7 +40,9 @@ function NewUser() {
     e.preventDefault();
     // await axios.put(`http://localhost:8081/user/${id}`,user);
     const token = localStorage.getItem('token');
-    await axios.put(`http://localhost:3001/user/${id}`,user,{
+    await axios.put(`https://memo-i7q4.onrender.com
+
+/user/${id}`,user,{
       headers: {
         Authorization: `${token}`, 
       },

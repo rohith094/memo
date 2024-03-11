@@ -17,7 +17,9 @@ function Home() {
 
   const findUser = async () => {
   try {
-    const response = await axios.get("http://localhost:3001/users", {
+    const response = await axios.get("https://memo-i7q4.onrender.com
+
+/users", {
       headers: {
         Authorization: `${token}`, 
       },
@@ -30,7 +32,9 @@ function Home() {
 
   const handleDelete = async (id)=>{
     // await axios.delete(`http://localhost:8081/user/${id}`);
-    await axios.delete(`http://localhost:3001/user/${id}`,{
+    await axios.delete(`https://memo-i7q4.onrender.com
+
+/user/${id}`,{
       headers: {
         Authorization: `${token}`, 
       },
