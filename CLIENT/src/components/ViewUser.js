@@ -24,9 +24,7 @@ function ViewUser() {
 
   const loadUser = async () =>{
     // const response = await axios.get(`http://localhost:8081/user/${id}`)
-    const response = await axios.get(`https://memo-i7q4.onrender.com
-
-/user/${id}`)
+    const response = await axios.get(`https://memo-i7q4.onrender.com/user/${id}`)
     setUser(response.data);
   }
 

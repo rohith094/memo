@@ -17,9 +17,7 @@ function Home() {
 
   const findUser = async () => {
   try {
-    const response = await axios.get("https://memo-i7q4.onrender.com
-
-/users", {
+    const response = await axios.get("https://memo-i7q4.onrender.com/users", {
       headers: {
         Authorization: `${token}`, 
       },

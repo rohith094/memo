@@ -24,9 +24,7 @@ function Registration() {
     e.preventDefault();
     
     try{
-      const response = await axios.post("https://memo-i7q4.onrender.com
-
-/register", user);
+      const response = await axios.post("https://memo-i7q4.onrender.com/register", user);
       console.log(response.data);
       if(response.data.status){
         toast.error(response.data.message);

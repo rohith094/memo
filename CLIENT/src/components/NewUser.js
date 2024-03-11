@@ -36,9 +36,7 @@ function NewUser() {
     // await axios.post("http://localhost:8081/user",user);
     const token = localStorage.getItem('token');
     try{
-      await axios.post("https://memo-i7q4.onrender.com
-
-/user",user,{
+      await axios.post("https://memo-i7q4.onrender.com/user",user,{
         headers: {
           Authorization: `${token}`, 
         },
