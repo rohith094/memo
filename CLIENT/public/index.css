@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("./images/white-textured-concrete.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.Registration{
+  width: 400px;
+  height: auto;
+  margin: 50px auto;
+}
+.Registration form input:focus{
+  border: 2px solid #436850;
+  box-shadow: none;
+}
+.Registration form{
+  /* border: 1px solid #12372A; */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.submit{
+  display: flex;
+  justify-content: center;
+}
+
+.Login{
+  width: 400px;
+  height: auto;
+  margin: 50px auto;
+}
+.Login form input:focus{
+  border: 2px solid #436850;
+  box-shadow: none;
+}
+.Login form{
+  /* border: 1px solid #12372A; */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.login{
+  display: flex;
+  justify-content: center;
+}
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 380px) {
+  /* body {
+    background-color: lightgreen;
+  } */
+  .Navbar-container{
+    width: 100%;
+  }
+  .navbar-toggler-icon{
+    font-size: 0.9rem;
+  }
+  th{
+    display: none;
+  }
+  td{
+    display: block;
+  }
+  .d-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
