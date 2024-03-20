@@ -2,12 +2,6 @@
   margin: 0;
   padding: 0;
 }
-body{
-  background-image: url("./images/white-textured-concrete.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
 .Registration{
   width: 400px;
   height: auto;
@@ -18,8 +12,7 @@ body{
   box-shadow: none;
 }
 .Registration form{
-  /* border: 1px solid #12372A; */
-  padding: 10px;
+  padding: 0px 25px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
@@ -29,8 +22,6 @@ body{
 }
 
 .Login{
-  width: 100vw;
-  height: 100vh;
   margin: 50px auto;
   display:flex;
   justify-content: center;
@@ -59,8 +50,7 @@ body{
 .register a{
   text-decoration: none;
 }
-
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
   /* body {
     background-color: lightgreen;
   } */
